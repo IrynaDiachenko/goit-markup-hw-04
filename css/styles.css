@@ -5,7 +5,7 @@
     --color-tipe: #757575;  /*серый*/
     --main-color: #FFFFFF;  /*белый*/
     --color-font: #2F303A;  /*темно серый*/
-    --color-icons: #AFB1B8;
+    --color-icons: #AFB1B8; 
     /*светло-серый*/
     --bg-color-light: #f5f4fa; /*cветло-светло-серый*/
     --opposite-basic-color: #000000;  /*черный*/
@@ -425,27 +425,18 @@ div, section, p, h2{
     margin-right: 30px;
 }
     
-   .clients-link {
+.clients-link {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 170px;
     height: 90px;
     color: var(--color-icons);
-    /* background-color: var(--clients-bg-color); */
-    padding-bottom: 94px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
-   
     
 } 
-
-
-
-.features-icon {
-    width: 70px;
-    height: 70px;
-}
 
 
 .clients-link:hover,
@@ -454,9 +445,10 @@ div, section, p, h2{
     border-color: var(--color-link);
 }
 
-.client-icon {
+.clients-icon {
     fill: currentColor;
-    height: 50px;
+       width: 106px;
+       height: 60px;
 }
 
 
@@ -511,9 +503,6 @@ margin-top: 9px;
 
  /* FOOTER ICONS */
 
-.footer-item {
-    margin-left: 70px;
-}
 
 .footer-title {
     margin-bottom: 20px;
@@ -535,7 +524,8 @@ margin-top: 9px;
 .footer-item {
     margin-top: 16px;
     margin-left: 10px;
-}
+    
+} 
 
 .footer-social-link {
     background-color: rgba(255, 255, 255, 0.1);
