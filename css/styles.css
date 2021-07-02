@@ -535,11 +535,11 @@ margin-top: 9px;
     display: flex;
 }
 
-/* .footer-social-item {
-    margin-top: 16px;
+.footer-item {
+    /* margin-top: 16px; */
     margin-left: 10px;
     
-}  */
+} 
 
 .footer-social-link {
     background-color: rgba(255, 255, 255, 0.1);
