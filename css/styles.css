@@ -343,11 +343,8 @@ div, section, p, h2{
     border-radius: 0px 0px 4px 4px;
 }
 
-/* .member {
-    padding: 30px 0;
-    display: block;
-    
-} */
+
+
 
 .picture-name {
     color: var(--text-color);
@@ -461,12 +458,23 @@ div, section, p, h2{
     padding-bottom: 60px;
 }
 
-footer .logo {
+.footer-logo {
     color: var(--main-color);
     display: inline-block;
     margin-bottom: 20px;
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    font-style: normal;
+   
+    letter-spacing: 0.03em;
 }
 
+.footer-logo-accent{
+    color
+}
 address {
     display: block;
     font-style: italic;
@@ -500,8 +508,17 @@ margin-top: 9px;
     color: var(--color-link);
 }
 
+/* .footer-address-list .footer-address-item+.footer-address-item {
+    margin-top: 9px;
+} */
+
+
 
  /* FOOTER ICONS */
+
+ .footer-conteiner {
+     display: flex;
+ }
 
 .footer-social {
     margin-left: 70px;
@@ -516,18 +533,13 @@ margin-top: 9px;
 
 .footer-social-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-     margin-left: -10px;
-    margin-top: -16px;
-    padding-bottom: 24px; 
 }
 
-.footer-social-item {
+/* .footer-social-item {
     margin-top: 16px;
     margin-left: 10px;
     
-} 
+}  */
 
 .footer-social-link {
     background-color: rgba(255, 255, 255, 0.1);
