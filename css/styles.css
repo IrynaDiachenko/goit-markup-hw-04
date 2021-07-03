@@ -475,12 +475,13 @@ div, section, p, h2{
 .footer-logo-accent{
     color
 }
-address {
+/* address {
     display: block;
     font-style: italic;
-}
+} */
 
 .footer-adress {
+    font-family: 'Roboto';
     color: var(--main-color);
     font-style: normal;
     font-size: 14px;
@@ -494,7 +495,7 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-
+font-family: 'Roboto';
 color: rgba(255, 255, 255, 0.6);
 
 display: block;
@@ -516,7 +517,7 @@ margin-top: 9px;
 
  /* FOOTER ICONS */
 
- .footer-conteiner {
+ .footer-wrapper {
      display: flex;
  }
 
@@ -525,7 +526,9 @@ margin-top: 9px;
 }
 .footer-social-title {
     margin-bottom: 20px;
-    font-weight: 700;
+    /* font-weight: 700; */
+    font-style: normal;
+    font-size: 14px;
     line-height: 1.17;
     color: var(--main-color);
     text-transform: uppercase;
