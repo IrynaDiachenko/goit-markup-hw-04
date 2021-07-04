@@ -166,7 +166,7 @@ align-items: center;
     color: var(--main-color);
      text-transform: uppercase;
      font-size: 44px;
-     font-weight: 900px;
+     font-weight: 900;
      letter-spacing: 0.06em;
      line-height: 1.36;
      margin-top: 0;
@@ -177,7 +177,7 @@ align-items: center;
     /* background-color: var(--color-font); */
     background-color: var(--text-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-    url(/images/hero.jpg);
+    url(../images/hero.jpg);
     padding-top: 200px;
     padding-bottom: 200px; 
     background-position: center;
@@ -222,12 +222,18 @@ align-items: center;
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-   
+}
+
+.section {
+    padding-top: 94px;
+    /* padding-bottom: 94px; */
 }
 
 div, section, p, h2{
     display: block;
 }
+
+
 
 .features-list {
     /*width: 270px;
@@ -330,20 +336,31 @@ div, section, p, h2{
 .team {
     display: flex;
     flex-wrap: wrap;
-    margin-right: calc(-1 * var(--card-set-gap));
+    /* margin-right: calc(-1 * var(--card-set-gap)); */
+flex-direction: row;
+justify-content: center;
+    margin-top: calc(-1 * var(--card-set-gap));
+    margin-left: calc(-1 * var(--card-set-gap)); 
 }
 
 .team-item {
     flex-basis: calc(100% / 4 - var(--card-set-gap));
-    margin-right: var(--card-set-gap);
+    margin-left: var(--card-set-gap);
     background-color: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
                 0px 1px 1px rgba(0, 0, 0, 0.14),
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
 
-
+.team__item+.team__item {
+    margin-left: 30px;
+}
 
 
 .picture-name {
@@ -352,20 +369,21 @@ div, section, p, h2{
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 10px;
+  
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .position {
     color: var(--color-tipe);
-   
+   margin-top: 10px;
+   margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
 }
 
 
@@ -375,7 +393,7 @@ div, section, p, h2{
     display: flex;
     justify-content: center;
     margin-top: 16px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .social-item:not(:last-child) {
@@ -526,7 +544,7 @@ margin-top: 9px;
 }
 .footer-social-title {
     margin-bottom: 20px;
-    /* font-weight: 700; */
+    font-weight: 500;
     font-style: normal;
     font-size: 14px;
     line-height: 1.17;
